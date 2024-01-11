@@ -1,0 +1,41 @@
+/*-----------------------------------------------------------------------------------*/
+/*	overide
+/*-----------------------------------------------------------------------------------*/
+.white{
+    color: #FFF;
+}
+
+.center{
+text-align: center;
+}
+
+.titleh{
+    color:white;
+	font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px #050404;
+}
+
+.about-title{
+    color:white;
+    padding-top: -20px;
+    padding-left: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about-title-widget{
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+
+}
+.about-content{
+font-size: 16px;
+}
+
+.s-month{
+    padding-left: 4px;
+    padding-right: 4px;
+}
