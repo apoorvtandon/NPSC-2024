@@ -191,190 +191,42 @@ body {
   /*-----------------------------------------------------------------------------------*/
   /*	HEADER
   /*-----------------------------------------------------------------------------------*/
-  header {
-    background-image: url("../images/back.jpg");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  .header {
+    background-color: skyblue;
+    height:400px;
   }
-  
-  .site-header {
-    font-size: 12px;
-    border-bottom: 4px solid;
+  ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size: 17px;
+    font-weight: bolder;
   }
-  
-  .sitetitle{
-    margin-top: 50px;
-  }
-  
-  .header-left {
-    margin-top: 0px;
-  }
-  .header-left p i {
-    margin-right: 7px;
-  }
-  
-  .logo {
-    margin: 40px auto;
-    text-align: center;
-    
-    
-  }
-  
-  .header-right {
-    margin: 0px auto;
-    text-align: right;
-  }
-  
-  .small-links {
-    padding: 0;
-    margin: 0 0 15px 0;
-  }
-  .small-links li {
-    list-style: none;
-    display: inline;
-  }
-  .small-links li:not(:last-child):after {
-    padding: 0 8px;
-    content: '|';
-  }
-  
-  .search-form form input {
-    min-width: 240px;
-    box-shadow: none;
-    border: 1px solid;
-    height: 34px;
-    padding: 10px;
-  }
-  
-  .main-navigation {
-    border-top: 1px solid;
-    font-size: 12px;
-    font-weight: 900;
-    }
-  
-  .main-menu {
-    padding: 0;
-    margin: 0;
-  }
-  .main-menu li {
-    list-style: none;
+
+  ul li{
     display: inline-block;
-    float: left;
-    margin: 0;
-    border-right: 1px solid;
-    position: relative;
   }
-  .main-menu li ul {
-    position: absolute;
-    width: 180px;
-    z-index: 9999;
-    top: 100%;
-    left: 0;
-    padding: 0;
-    border-top: 4px solid;
+
+  ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.5s ease;
+
   }
-  .main-menu li ul li {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid;
-    padding: 0;
+  ul li a:hover {
+    background-color: #fff;
+    color:#000;
   }
-  .main-menu li ul li a {
-    display: block;
-    padding: 12px 20px;
+  .main {
+    max-width: 1200px;
+    margin: auto;
   }
-  .main-menu li ul li ul {
-    left: 100%;
-    top: 0;
-  }
-  .main-menu a {
-    display: block;
-    padding: 17px 20px;
-  }
-  
-  .sf-with-ul i {
-    margin-left: 10px;
-  }
-  
-  .social-icons {
-    padding: 17px 20px;
-    margin: 0;
-  }
-  .social-icons li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
-  }
-  
-  .menu-toggle-btn {
-    width: 100%;
-    height: 60px;
-    font-size: 24px;
-    display: block;
-    text-align: center;
-    line-height: 60px;
-  }
-  
-  .responsive_menu {
-    position: relative;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    display: none;
-    width: 100%;
-  }
-  
-  .main_menu {
-    margin: 0;
-    padding: 20px;
-    list-style: none;
-    border-bottom: 1px solid;
-    }
-  .main_menu li:not(:first-child) {
-    border-top: 1px solid;
-    padding: 12px 0;
-  }
-  .main_menu li ul {
-    list-style: none;
-    margin-left: -10px;
-    margin-top: 10px;
-  }
-  .main_menu li ul li {
-    border-top: 1px solid;
-    padding: 10px 0;
-  }
-  .main_menu li ul li:before {
-    content: '-';
-    margin-right: 10px;
-  }
-  .main_menu a {
-    font-size: 16px;
-  }
-  
-  .social_icons {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin: 0;
-    padding-left: 20px;
-    display: inline-block;
-    text-align: center;
-  }
-  .social_icons li {
-    display: inline;
-    float: left;
-  }
-  .social_icons li a {
-    width: 36px;
-    height: 36px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    display: block;
-    float: left;
-    text-align: center;
-    line-height: 36px;
-    margin-right: 10px;
+  ul li.active a{
+    background-color: #fff;
+    color:#000;
   }
   
   /*-----------------------------------------------------------------------------------*/
