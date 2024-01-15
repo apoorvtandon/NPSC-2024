@@ -228,8 +228,12 @@ body {
     background-color: #fff;
     color:#000;
   }
+  .image {
+    width:100%;
+    height:auto;
+  }
   .image img {
-    object-fit: cover;
+    object-fit:cover;
   }
   /*-----------------------------------------------------------------------------------*/
   /*	SLIDER
