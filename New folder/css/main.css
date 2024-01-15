@@ -223,18 +223,18 @@ body {
   .main {
     max-width: 1200px;
     margin: auto;
+    
   }
   ul li.active a{
     background-color: #fff;
     color:#000;
   }
-  .image {
-    width:100%;
+  img {
+    max-width: 100%;
     height:auto;
+    
   }
-  .image img {
-    object-fit:cover;
-  }
+  
   /*-----------------------------------------------------------------------------------*/
   /*	SLIDER
   /*-----------------------------------------------------------------------------------*/
