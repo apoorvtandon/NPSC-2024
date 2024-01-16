@@ -1,0 +1,166 @@
+
+
+.containers {
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:rgba(99, 8, 81, 0.904);
+font-size: 17px;
+font-weight: 300;
+line-height: 22px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.contents {
+    margin-bottom: 20px;
+    color: #555555;
+ 
+}
+
+
+
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: block;
+    color: #007BFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Keep the color of the <p> element black */
+.links p {
+    color: black;
+    margin: 0;
+    font-size: 16px;
+    display: inline; /* Keep the <p> element inline */
+}
+
+
+
+/*----Events----*/
+.events {
+    width: 100%; /* Adjust the width of the events container */
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.rowe {
+    margin-top: 3%; /* Adjust the margin between rows */
+    margin-left: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-col {
+    flex-basis: 26%; /* Adjust the width of each column */
+    background: #debddc;
+    border-radius: 12px;
+    margin-right: 1%;
+    transition: 0.5s;
+    margin-bottom: 1%;
+    box-sizing:border-box;
+    
+}
+
+
+
+
+
+h3{
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+}
+.events-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,2 );
+}
+.events-col ul {
+    list-style-type: none;
+    margin-left: 0;
+   text-align: left;
+}
+
+.events-col ul li {
+    display: block; /* Each list item on a new line */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+    text-align: left;
+    color: #00008B;
+}
+
+
+.events-col ul li:before {
+    content: "\21D2"; /* Unicode character for a double right arrow */
+    margin-right: 5px;
+    color: #333; /* Darker color */
+}
+
+/*----Event----*/
+.event {
+    width: 80%; /* Adjust the width of the events container */
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rows {
+    margin-top: 3%; /* Adjust the margin between rows */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-cols {
+    flex-basis: 30%; /* Adjust the width of each column */
+    background:#debddc;
+    border-radius: 12px;
+    margin-bottom: 2%; /* Adjust the margin between columns */
+    
+    transition: 0.5s;
+    
+}
+
+
+
+
+
+h3{
+text-align: center;
+font-weight: 600;
+margin: 10px 0;
+}
+.events-cols:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,2 );
+}
+.events-cols ul {
+    list-style-type: none;
+    margin-left: 0;
+   text-align: left;
+}
+
+.events-cols ul li {
+    display: block; /* Each list item on a new line */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+    text-align: left;
+   color: #00008B;
+}
+
+
+.events-cols ul li:before {
+    content: "\21D2"; /* Unicode character for a double right arrow */
+    margin-right: 5px;
+    color: #333; /* Darker color */
+}
+
